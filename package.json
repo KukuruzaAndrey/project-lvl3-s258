@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/KukuruzaAndrey/project-lvl3-s258#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
     "css-loader": "^0.28.11",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "validator": "^10.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

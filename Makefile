@@ -8,6 +8,7 @@ install-deps:
 build:
 	rm -rf dist
 	NODE_ENV=production npm run webpack
+	cp CNAME dist
 
 test:
 	npm test
@@ -16,6 +17,6 @@ lint:
 	npm run eslint .
 
 publish:
-	npm publish
+	surge
 
 .PHONY: test
